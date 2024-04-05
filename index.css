@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Bold.eot');
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url('TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Bold.woff') format('woff'),
+        url('TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Medium.woff') format('woff'),
+        url('TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Lakes';
+    src: url('TTLakes-Regular.eot');
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTLakes-Regular.woff') format('woff'),
+        url('TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  *,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family:"TT Lakes", sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+    background: #FFFFFF;
+    width: 320px;
+    height: 1024px;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+  }
+
+button {
+    
+    background: transparent;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 24px;
+    background: #FFFFFF;
+    }
+
+.logo {
+    padding-right: 78.27px;
+    padding-left: 16.74px;
+}
+
+.nav {
+    width: 320px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+
+.nav-item {
+    padding: 20px 24px;
+}
+
+.nav-item:hover {
+   
+    background:  url(img/highlight_aside.svg) no-repeat  left;
+}
+
+.nav-link {
+    color: black;  
+} 
+.nav-link:hover{
+    color: #7E7E82;
+}
+
+.logo-contact {
+    display: flex;
+    gap: 16px;
+    padding: 230px 24px 0;
+}
+
+.contact {
+    font-weight: 500;
+    padding: 16px 24px 0;
+}
+
+.phone {
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.lang { 
+    padding-top: 40px;
+}
+
+.lang-button {
+    font-weight: 500;
+}
+
+.lang-button:hover {
+    color: #7E7E82;
+}
